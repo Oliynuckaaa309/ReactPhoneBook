@@ -1,0 +1,15 @@
+.headerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a90e2;
+  padding: 20px;
+  color: white;
+}
+.headerTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}

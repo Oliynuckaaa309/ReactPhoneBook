@@ -1,0 +1,52 @@
+.loading,
+.error {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.loading {
+    color: #007bff;
+}
+.error {
+    color: #dc3545;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+.userTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #333;
+}
+.userTable thead {
+    background-color: #e4eaf0;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 4px;
+}
+.userTable th,
+.userTable td {
+    padding: 12px 15px;
+    text-align: center;
+}
+.userTable th {
+    background-color: #65a1dc;
+    color: white;
+    border-bottom: 2px solid #0056b3;
+}
+.userTable tr:hover {
+    background-color: #e9ecef;
+}
+.userTable td {
+    border-bottom: 1px solid #e3d3d3;
+    font-size: 20px;
+    font-weight: 500;
+}
+.notFoundMessage {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 50px;
+}
